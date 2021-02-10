@@ -33,7 +33,7 @@ def send_email(email, subject, msg):
         print("Error：无法发送邮件.Case:%s"%e)
 
 
-# 使用teilio的使用账户发送短信
+# 使用twilio的使用账户发送短信
 def send_sms(phone, content):
     from twilio.rest import Client
     # 账户信息： twilio.com/console
